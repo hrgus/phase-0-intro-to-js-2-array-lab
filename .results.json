@@ -1,0 +1,66 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2021-11-12T19:54:20.639Z",
+    "end": "2021-11-12T19:54:21.377Z",
+    "duration": 738
+  },
+  "tests": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "file": "/home/hrgus/Assignments/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: cats is not defined\n    at Context.<anonymous> (test/indexTest.js:4:14)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "cats is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: cats is not defined"
+          }
+        ]
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "file": "/home/hrgus/Assignments/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: cats is not defined\n    at Context.<anonymous> (test/indexTest.js:4:14)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "cats is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: cats is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "\"before each\" hook for \"appends a cat to the end of the cats array\"",
+      "fullTitle": "index.js Array functions \"before each\" hook for \"appends a cat to the end of the cats array\"",
+      "file": "/home/hrgus/Assignments/phase-0-intro-to-js-2-array-lab/test/indexTest.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: cats is not defined\n    at Context.<anonymous> (test/indexTest.js:10:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "cats is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: cats is not defined"
+          }
+        ]
+      }
+    }
+  ],
+  "passes": []
+}
