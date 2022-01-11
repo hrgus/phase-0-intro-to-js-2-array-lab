@@ -1,80 +1,41 @@
 const cats = ["Milo", "Otis", "Garfield"];
 
-function destructivelyAppendCat(name) {
-     
+function destructivelyAppendCat(name){
     return cats.push(name);
-
 }
 destructivelyAppendCat('Ralph');
 
-
-
-function destructivelyPrependCat(name) {
-
+function destructivelyPrependCat(name){
     return cats.unshift(name);
-
 }
 destructivelyPrependCat("Bob");
 
-
-
-function destructivelyRemoveLastCat() {
-
+function destructivelyRemoveLastCat(){
     return cats.pop();
-
 }
 destructivelyRemoveLastCat();
 
-
-// I have to figure this one out. What are you doing wrong here?
-function destructivelyRemoveFirstCat() {
-
+function  destructivelyRemoveFirstCat(){
     return cats.shift();
-
 }
 destructivelyRemoveFirstCat();
 
-
-// Needs to copy from "["Milo", "Otis", "Garfield"];"
-// To new Array "["Milo", "Otis", "Garfield", "Broom"];"
-function appendCat(name) {
-
-    const copyOfCats = [...cats, name];
-
-    return copyOfCats;
-
+function appendCat(name){
+    return [...cats, name];
 }
-appendCat("Broom");
+appendCat('Broom');
 
-
-
-function prependCat(name) {
-
-    const copyOfCats = [name, ...cats];
-
-    return copyOfCats;
-
+function prependCat(name){
+    return [name, ...cats];
 }
 prependCat("Arnold");
 
-
-
-function removeLastCat() {
-
-    const copyOfCats = cats.slice(0, -1);
-
-    return copyOfCats;
-
+function  removeLastCat(){
+    return cats.slice(0, cats.length - 1);
 }
 removeLastCat();
 
-
-
-function removeFirstCat() {
-
-    const copyOfCats = cats.slice(-2);
-    
-    return copyOfCats;
-
+function removeFirstCat(){
+    return cats.slice(1);
 }
 removeFirstCat();
